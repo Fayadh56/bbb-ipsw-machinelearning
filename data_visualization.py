@@ -19,7 +19,7 @@ num_rows = dataframe_all.shape[0]
 # counter_without_nan = counter_nan[counter_nan==0]
 # # remove the columns with missing elements
 # dataframe_all = dataframe_all[counter_without_nan.keys()]
-# remove the first 7 columns which contain no discriminative information
+# remove the first 4 columns which contain no discriminative information
 dataframe_all = dataframe_all.ix[:,4:]
 # the list of columns (the last column is the class label)
 columns = dataframe_all.columns
